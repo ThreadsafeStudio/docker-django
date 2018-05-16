@@ -1,7 +1,7 @@
 FROM ubuntu:latest
 
 # General
-RUN apt-get update && apt-get -y upgrade
+RUN apt-get update --fix-missing && apt-get -y upgrade
 
 # Install pip and git
 RUN apt-get -y install git python-pip

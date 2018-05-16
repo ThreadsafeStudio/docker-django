@@ -1,8 +1,8 @@
 build-docker:
-	docker build -t threadsafestudioab/django .
+	docker build -t pascalc/threadsafe-django .
 
 run-docker:
-	docker run -it --rm threadsafestudioab/django /bin/bash
+	docker run -it --rm pascalc/threadsafe-django /bin/bash
 
 push-docker:
-	docker push threadsafestudioab/django
+	docker push pascalc/threadsafe-django
